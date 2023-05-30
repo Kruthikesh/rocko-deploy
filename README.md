@@ -34,3 +34,28 @@ AudioVize has the following dependencies:
 - SQLite: A lightweight, file-based database used as the default database backend in Django.
 
 
+
+
+![Screenshot (145)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/2c36abe8-b1b1-4bba-8269-e264171a1ad7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
