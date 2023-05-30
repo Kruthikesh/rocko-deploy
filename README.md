@@ -9,9 +9,7 @@ git clone https://github.com/Kruthikesh/rocko-deploy
 
 2. Navigate to the project directory.
 
-3. pip install psycopg2 
-
-   pip install phonenumbers
+3. pip install -r requirements.txt
 
 4. Apply database migrations:
 
