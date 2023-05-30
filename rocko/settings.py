@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wd5kqux2!_un&5o2#rqkvo*^9s++mg%6d@hbxty9@*8vp$xsx$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -77,20 +77,20 @@ WSGI_APPLICATION = 'rocko.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 
-       'ENGINE': 'django.db.backends.postgresql',
+    #    'ENGINE': 'django.db.backends.postgresql',
 
-        'NAME': os.environ.get('db_name'),
+    #     'NAME': os.environ.get('db_name'),
 
-        'USER': os.environ.get('db_user'),
+    #     'USER': os.environ.get('db_user'),
 
-        'PASSWORD': os.environ.get('db_password'),
+    #     'PASSWORD': os.environ.get('db_password'),
 
-        'HOST': os.environ.get('db_host'),
+    #     'HOST': os.environ.get('db_host'),
 
-        'PORT': os.environ.get('db_port')
+    #     'PORT': os.environ.get('db_port')
     }
 }
 
@@ -136,13 +136,13 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
+# AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+# AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL = None
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
 
 
 MEDIA_URL = '/image-uploads/'
