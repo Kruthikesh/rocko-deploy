@@ -15,13 +15,13 @@ git clone https://github.com/Kruthikesh/rocko-deploy
 
 4. Apply database migrations:
 
-python manage.py makemigrations
+   python manage.py makemigrations
 
-python manage.py migrate
+   python manage.py migrate
 
 5. Start the development server:
 
-python manage.py runserver
+   python manage.py runserver
 
 6. Open your web browser and visit `http://localhost:8000` to access Rocko-Portal.
 
