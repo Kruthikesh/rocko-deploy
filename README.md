@@ -1,4 +1,4 @@
-# rocko-deploy
+# Rocko-Deploy
 The Registration Portal for Alcheringa-The annual cultural fest of IIT Guwahati's Rock band competition,
  where the participating teams have to register themselves.
 ## Project-setup
