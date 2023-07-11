@@ -25,7 +25,7 @@ git clone https://github.com/Kruthikesh/rocko-deploy
 
 ## Dependencies
 
-AudioVize has the following dependencies:
+Rock-O-Phoenix has the following dependencies:
 
 - Django: A high-level Python web framework for rapid development.
 
@@ -33,22 +33,15 @@ AudioVize has the following dependencies:
 
 - SQLite: A lightweight, file-based database used as the default database backend in Django.
 
+![Screenshot (145)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/afbc42b2-30da-4b36-82fb-7789b7b59e79)
 
+![Screenshot (146)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/20c16646-09d2-4c2a-8ae8-c83b21485464)
 
+![Screenshot (147)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/db328215-9186-48d4-a3c6-d1de56193158)
 
-![Screenshot (145)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/2c36abe8-b1b1-4bba-8269-e264171a1ad7)
+![Screenshot (148)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/28a47a68-5a8f-441c-a339-1ad3265d745b)
 
-![Screenshot (146)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/7f581e51-a0c1-4a3b-971e-9dbb52125c3b)
-
-![Screenshot (147)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/88067125-812a-4356-ad1a-513f20438f72)
-
-![Screenshot (149)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/d85b646c-aead-4756-a7e1-132172692df8)
-
-
-
-
-
-
+![Screenshot (149)](https://github.com/Kruthikesh/rocko-deploy/assets/98465500/2f6e1ca7-4423-452a-b45d-d2e78b46ae84)
 
 
 
